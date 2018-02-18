@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Play");
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #2b2b2b;
+  font-family: "Play", sans-serif;
+  color: #929292; }
+
+a {
+  color: #929292; }
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+header {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px; }
+
+header {
+  height: 50px;
+  border-bottom: 1px solid #242424; }
+  header menu {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; }
+    header menu li {
+      display: inline-block;
+      margin-right: 20px; }

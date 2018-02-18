@@ -1,0 +1,17 @@
+@import '../base/colors';
+
+header {
+	height: 50px;
+	border-bottom: 1px solid $black;
+
+	menu {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+
+		li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+	}
+}

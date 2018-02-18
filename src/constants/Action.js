@@ -1,0 +1,26 @@
+/* общие */
+
+export const ERROR = 'ERROR';
+
+/* миссия */
+
+export const INIT_MISSION = 'INIT_MISSION';
+export const START_MISSION = 'START_MISSION';
+export const COMPLETE_MISSION = 'COMPLETE_MISSION';
+export const SAVE_RESULT_SUCCESS = 'SAVE_RESULT_SUCCESS';
+export const SAVE_RESULT_ERROR = 'SAVE_RESULT_ERROR';
+export const CLOSE_MISSION = 'CLOSE_MISSION';
+export const CANCEL_MISSION = 'CANCEL_MISSION';
+
+/* дежурства */
+
+export const FETCH_DUTIES = 'FETCH_DUTIES';
+export const FETCH_DUTIES_SUCCESS = 'FETCH_DUTIES_SUCCESS';
+export const FETCH_NEXT_DUTIES_SUCCESS = 'FETCH_NEXT_DUTIES_SUCCESS';
+export const FETCH_DUTIES_ERROR = 'FETCH_DUTIES_ERROR';
+
+/* дежурство */
+
+export const DELETE_DUTY = 'DELETE_DUTY';
+export const DELETE_DUTY_SUCCESS = 'DELETE_DUTY_SUCCESS';
+export const DELETE_DUTY_ERROR = 'DELETE_DUTY_ERROR';
